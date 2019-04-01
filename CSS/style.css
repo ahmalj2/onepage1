@@ -1,0 +1,376 @@
+* {
+    font-style: oblique;
+    margin: auto;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: black;
+    height: 40px;
+    overflow: hidden;
+    padding: 20px;
+    color: red;
+    display: none;
+}
+
+header h1 {
+    float: left;
+    font-family: inherit;
+}
+
+.logo {
+    color: white;
+}
+
+header nav {
+    float: right;
+    font-style: italic;
+    color: red;
+}
+
+header nav ul {
+    list-style-type: none;
+    color: red;
+}
+
+header nav ul li {
+    float: left;
+    margin-right: 20px;
+    color: red;
+}
+
+a:link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14pt;
+    font-family: inherit;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    text-decoration: inherit;
+    color: red;
+    transition: 1s;
+}
+
+#bild {
+    min-height: 500px;
+    background-image: url('https://c.pxhere.com/photos/70/0b/weights_lifting_power_female_gym_fitness_young_sport-755448.jpg!d');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    padding: 100px;
+}
+
+#bild h2 {
+    float: right;
+    color: red;
+    text-shadow: 2px 2px 8px #fff;
+    font-size: 48pt;
+}
+
+#bild div {
+    font-size: 60px;
+    line-height: 1.33333333;
+    color: #ffffff;
+}
+
+.readmore {
+    position: absolute;
+    right: 160px;
+    bottom: 30px;
+    border: 1px solid #43b7e4;
+    padding: 10px;
+    background-color: gray;
+    /* Green */
+    border: none;
+    color: yellow;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#couches>div>img {
+    width: 400px;
+}
+
+#couches {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+
+@media screen and (max-width: 800px) {
+    #couches {
+        display: block;
+    }
+    #content {
+        display: block;
+    }
+}
+
+#couches ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#couches ul li {
+    float: left;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 200px;
+    overflow: hidden;
+    width: 300px;
+    margin-right: 10px;
+    padding-top: 120px;
+}
+
+#couches #erbjudande_1 {
+    background: url('https://image.flaticon.com/icons/svg/889/889444.svg') no-repeat top center;
+    background-size: 100px 100px;
+    background-color: #fff;
+}
+
+#couches #erbjudande_2 {
+    background: url('https://image.flaticon.com/icons/svg/889/889271.svg') no-repeat top center;
+    background-size: 100px 100px;
+    background-color: #fff;
+}
+
+#couches #erbjudande_3 {
+    background: url('https://image.flaticon.com/icons/svg/889/889416.svg') no-repeat top center;
+    background-size: 100px 100px;
+    background-color: #fff;
+}
+
+#content {
+    display: flex;
+    margin-top: 2%;
+}
+
+#prices {
+    display: flex;
+}
+
+#content>div>img {
+    width: 400px;
+}
+
+article h3 a:link {
+    color: black;
+    border-bottom: 1px dotted black;
+    font-size: 24pt;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+article h3 a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+article {
+    overflow: hidden;
+    background-color: #e4f3f9;
+    margin-bottom: 10px;
+    border: 1px solid #7ec8e5;
+    padding: 20px;
+}
+
+article p {
+    font-family: inherit;
+    font-size: 16pt;
+    float: left;
+    width: 65%;
+    text-align: justify;
+}
+
+article img {
+    float: right;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 7px;
+    width: 400px;
+    height: 300px;
+}
+
+article .read {
+    float: right;
+    margin-right: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 7px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #0d0e15;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-right: 300px;
+    padding-left: 300px;
+    border-top: 4px solid black;
+}
+
+#first-footer {
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+#first-footer ul {
+    list-style-type: none;
+    float: left;
+    width: 270px;
+    margin-right: 10px;
+}
+
+#first-footer ul li {
+    text-indent: 20px;
+    margin-top: 10px;
+}
+
+#first-footer h4 {
+    color: white;
+    border-bottom: 1px dotted red;
+}
+
+#first-footer {
+    color: white;
+}
+
+#second-footer {
+    text-align: center;
+    color: #64677c;
+    padding-bottom: 20px;
+}
+
+#done {
+    font-size: 80px;
+    color: yellow;
+    font-weight: bold;
+}
+
+map>iframe {
+    width: 100%;
+}
+
+map {
+    display: none;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background-color: #C0C0C0;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background: linear-gradient(110deg, black 60%, #ff9908 60%);
+    padding: 20px;
+    color: white;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+#cros {
+    color: white;
+}
+
+#couches {
+    font-size: 15pt;
+}
+
+#couches>div>img {
+    width: 400px;
+}
+
+#button {
+    width: 100%;
+    margin-top: 1%;
+    font-size: 25px;
+}
+
+.contentP {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#top {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    display: none;
+}
+
+#top:hover {
+    background-color: black;
+    color: white;
+}
